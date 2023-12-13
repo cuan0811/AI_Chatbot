@@ -1,0 +1,51 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Alo","Chào","Hey", "Hello", "Hi","Có ai không?", "xin chào", "tôi bị đau", "tôi muốn mua giày"],
+         "responses": [ "Chào bạn, tôi có thể giúp gì cho bạn?", "bạn có thể cho tôi biết bạn bị đau ở đâu không?"],
+         "context": [""]
+        },
+        {"tag": "call_name",
+         "patterns": ["tên bạn là gì", "bạn tên gì", "chào bạn, bạn tên gì?", "What your name", "tên bạn", "bạn tên là gì"],
+         "responses": ["tôi tên là bobo", "tên tôi là bobo", "bobo, đó là tên của tôi","chào bạn, tôi tên là bobo"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time", "Tạm biệt", "Chào tạm biệt", "cút", "biến", "lượn"],
+         "responses": ["Hẹn gặp lại bạn sau!", "Chúc bạn một ngày tốt lành", "Tạm biệt! Hãy quay lại sớm nhé."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me","cảm ơn"],
+         "responses": ["Rất vui được giúp bạn!", "Bất cứ lúc nào!", "Không có gì đâu!"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Xin lỗi, tôi không hiểu bạn đang nói gì.", "Xin hãy cho tôi biết thêm thông tin.", "Tôi không chắc mình hiểu rõ ý của bạn."],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["Bạn có thể giúp tôi gì?", "Bạn có thể làm gì?", "Tôi cần giúp đỡ về giày", "Bạn có thể tư vấn giúp tôi chọn giày không?"],
+         "responses": ["Tôi có thể giúp bạn tìm kiếm và chọn lựa các đôi giày phù hợp với nhu cầu và sở thích của bạn.", "Tôi sẽ giúp bạn chọn lựa một đôi giày tốt nhất có thể."],
+         "context": [""]
+        },
+        {"tag": "S01",
+        "patterns": ["tôi bị đau tai", "đau tai", "tôi bị chảy dịch tai", "tôi có mủ trong tai", "tai tôi có mủ","tai tôi nhớt nhớt", "tôi có dịch trong tai", "tôi có mủ trong tai","tai tôi có mủ"],
+        "responses": ["bạn có khả năng bị chảy dịch tai"]
+        },
+        {"tag": "S02",
+         "patterns": ["Tìm giày cho tôi", "Giúp tôi tìm một đôi giày", "Tôi cần giày mới", "Tôi muốn mua đôi giày mới","Tìm",""],
+         "responses": ["Bạn muốn tìm loại giày gì? Ví dụ: sneaker, boots, sandals, etc.", "Hãy cho tôi biết loại giày bạn muốn tìm kiếm."],
+         "context": ["shoe_search_type"]
+        },
+        {"tag": "S03",
+         "patterns": ["tôi muốn đặt đôi giày này", "làm thế nào để đặt hàng", "oke tôi mua đôi giày này", "oke mua", "oke tôi mua"],
+         "responses": ["Để đặt hàng, bạn chỉ cần cho tôi biết thông tin về đơn hàng của bạn và tôi sẽ giúp bạn hoàn tất quá trình đặt hàng. "]
+        },
+        {"tag": "S04",
+        "patterns": ["tôi bị đau tai", "đau tai", "tôi bị chảy dịch tai", "tôi có mủ trong tai", "tai tôi có mủ","tai tôi nhớt nhớt", "tôi có dịch trong tai", "tôi có mủ trong tai","tai tôi có mủ"],
+        "responses": ["bạn có khả năng bị chảy dịch tai"]
+        }
+        ]
+}
+    
